@@ -104,11 +104,11 @@ body {
 
 .list ul li {
     list-style: none;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    
+    font-size: 1.5rem;   
 }
-
+.list ul li::first-letter {
+    text-transform:uppercase;
+}
 .list i {
     font-size: 1.5rem;
     padding: 5px;
@@ -133,6 +133,8 @@ body {
     .list li, .list .icon i{
         font-size: 1.3rem;
     }
+    .list ul li{
+        font-size:1rem;
 }
 @media (min-width:577px) and (max-width:992px){
      .to-do{
@@ -165,4 +167,5 @@ width: 70%;
     .to-do{
         width:65% ;
     }
+
 }
