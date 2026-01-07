@@ -104,11 +104,10 @@ body {
 
 .list ul li {
     list-style: none;
-    font-size: 1.5rem;   
+    font-size: 1.5rem; 
+    text-transform:capitalize;
 }
-.list ul li::first-letter {
-    text-transform:uppercase;
-}
+
 .list i {
     font-size: 1.5rem;
     padding: 5px;
@@ -169,3 +168,4 @@ width: 70%;
     }
 
 }
+
